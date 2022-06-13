@@ -1,7 +1,7 @@
 # 사상체질 분석 모델
 
 
-사진을 찍으면 얼굴을 Detect -> process 후 사상체질을 분석 해주는 모델 개발
+사진을 찍으면 얼굴을 Detect -> process 후 사상체질을 분석 해주는 모델 개발하여, Fun 건강 컨텐츠 제공 및 식단 등의 연계 서비스 확장
 
 ![image](https://user-images.githubusercontent.com/32697109/173339697-3f881038-1dff-48e0-a3cf-83cd984581b3.png)
 http://pointsofhealthacupuncture.com/acupuncture-and-oriental-medicine/
@@ -29,5 +29,10 @@ https://arxiv.org/pdf/1801.07637.pdf
  
  Classification Accuracy: ~74%
  
- 비교 모델 : 얼굴 정보와 혈액 성분수치를 활용한 모델의 정확도가 ~80% 정도
+ 비교 모델 : 얼굴 정보와 혈액 성분수치를 활용한 모델의 정확도가 ~80% 정도  
  https://www.hellodd.com/news/articleView.html?idxno=28027
+ 
+ ## 개선점
+ 
+ 사람들의 설문의 성실도가 떨어질 수 있다는 점과, QSCC 설문 또한 사상체질 진단에 참고용으로만 사용되어, 완벽한 Label이 되기 어려움.  
+ 가능하다면 다음에는 사상체질 전문 한의사의 도움을 얻어 사람들의 정확한 체질 label을 얻는 것이 필요할 것으로 보임
