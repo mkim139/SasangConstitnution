@@ -8,8 +8,8 @@ http://pointsofhealthacupuncture.com/acupuncture-and-oriental-medicine/
 
 ## Project 기간 (6개월):  
 * 데이터 수집: Crowd Sourcing을 통하여 Age/Gender Demographic 골고루 얼굴 사진 및 사상체질 설문(간소화된 QSCC) 내용 수집 (2개월)
-* 얼굴 Detection model 훈련 : 얼굴 Detection에 Specialize된 YOLOv3 구성 및 훈련 (1개월)
-* 얼굴 Processing을 위한 XceptionNet 기반 Landmark detection 모델 개발 (1개월)
+* 얼굴 Detection model 훈련 : 얼굴 Detection에 Specialize된 YOLOv3 구성 및 훈련 (MAP > ~.95 CelebA dataset, custom testset) (1개월)
+* 얼굴 Processing을 위한 XceptionNet 기반 Landmark detection 모델 개발 (test MSE loss < 8e-6) (1개월)
 * Process된 얼굴의 사상체질을 Classify 하는 모델 개발 (1개월)
 * 최종 Pipeline 구성 (1개월)
 
